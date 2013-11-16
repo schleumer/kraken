@@ -1,4 +1,0 @@
-kraken
-======
-
-Kraken Task Manager

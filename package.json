@@ -1,19 +1,44 @@
 {
-  "name": "YOUR-PROJECT-NAME-HERE",
-  "description": "YOUR PROJECT DESCRIPTION HERE",
-  "author": "YOUR NAME <your@emailaddress.com>",
+  "name": "application-name",
   "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
-    "connect": "1.8.5",
-    "express": "2.5.2",
-    "jade": "0.20.0",
-    "mongoose": "2.4.8",
-    "socket.io": "0.8.7"
-  },
-  "devDependencies": {
-    "vows": "0.5.x",
-	"mocha": "*",
-	"should": "*"
-  },
-  "engine": "node >= 0.6.6"
+    "express": "3.3.8",
+    "ejs": "*",
+    "underscore": "*",
+    "underscore.string": "*",
+    "mongoose": "3.6.20",
+    "mongoose-validate": "0.0.5",
+    "express-ejs-layouts": "*",
+    "mongodb": "*",
+    "connect-redis": "1.4.x",
+    "ejs-locals": "*",
+    "dot": "*",
+    "express-dot": "*",
+    "express-messages": "*",
+    "crypto": "*",
+    "moment": "*",
+    "rekuire": "*",
+    "async": "~0.2.9",
+    "orm": "~2.1.2",
+    "mysql": "~2.0.0-alpha9",
+    "knex": "~0.4.4",
+    "soundex": "~0.2.1",
+    "node-uuid": "~1.4.1",
+    "mkdirp": "~0.3.5",
+    "gm": "~1.13.1",
+    "node-minify": "~0.8.1",
+    "node-dir": "~0.1.5",
+    "recaptcha-async": "0.0.4",
+    "node-captcha": "~0.1.6",
+    "validator": "~2.0.0",
+    "canvas": "1.1.2",
+    "session-mongoose": "~0.3.2",
+    "mime": "~1.2.11",
+    "mmmagic": "~0.3.4",
+    "jade": "~0.35.0"
+  }
 }
