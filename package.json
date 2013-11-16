@@ -8,9 +8,9 @@
   "dependencies": {
     "express": "3.3.8",
     "ejs": "*",
-    "underscore": "*",
-    "underscore.string": "*",
-    "mongoose": "3.6.20",
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.3",
+    "mongoose": "~3.6.20",
     "mongoose-validate": "0.0.5",
     "express-ejs-layouts": "*",
     "mongodb": "*",
@@ -19,7 +19,7 @@
     "dot": "*",
     "express-dot": "*",
     "express-messages": "*",
-    "crypto": "*",
+    "crypto": "0.0.3",
     "moment": "*",
     "rekuire": "*",
     "async": "~0.2.9",
@@ -39,6 +39,7 @@
     "session-mongoose": "~0.3.2",
     "mime": "~1.2.11",
     "mmmagic": "~0.3.4",
-    "jade": "~0.35.0"
+    "jade": "~0.35.0",
+    "connect": "~2.11.0"
   }
 }
